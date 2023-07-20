@@ -20,11 +20,12 @@ code {
 }
 
 .movie {
+  display: flex;
+  flex-direction: column;
   width: 400px;
   margin: 20px;
   background-color: black;
   border-radius: 10px;
-  padding: 0 0 10px 0;
 }
 
 .movie h1,h2 {
@@ -34,5 +35,5 @@ code {
 .movie img {
   width: 100%;
   height: 250px;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 0px 0px 10px 10px;
 }
